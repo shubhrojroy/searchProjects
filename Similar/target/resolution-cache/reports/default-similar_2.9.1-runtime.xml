@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="similar_2.9.1"
+		revision="1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170225191840"/>
+	<dependencies>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="6.4.1" status="release" pubdate="20170204104108" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="3035" time="134" location="/Users/shubhrojyotiroy/.ivy2/cache/org.apache.lucene/lucene-core/ivy-6.4.1.xml" searched="true" original-local-location="/Users/shubhrojyotiroy/.ivy2/cache/org.apache.lucene/lucene-core/ivy-6.4.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/6.4.1/lucene-core-6.4.1.pom"/>
+				<caller organisation="default" name="similar_2.9.1" conf="compile, runtime" rev="6.4.1" rev-constraint-default="6.4.1" rev-constraint-dynamic="6.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-core" type="jar" ext="jar" status="successful" details="" size="2648855" time="250" location="/Users/shubhrojyotiroy/.ivy2/cache/org.apache.lucene/lucene-core/jars/lucene-core-6.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/6.4.1/lucene-core-6.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.9.1" status="release" pubdate="20110831013953" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
+         "/>
+				<metadata-artifact status="successful" details="" size="1427" time="76" location="/Users/shubhrojyotiroy/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.1.xml" searched="true" original-local-location="/Users/shubhrojyotiroy/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.pom"/>
+				<caller organisation="default" name="similar_2.9.1" conf="compile, runtime" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="8842990" time="841" location="/Users/shubhrojyotiroy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
