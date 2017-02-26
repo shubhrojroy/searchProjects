@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="similar$sources_javadoc_2.9.1"
+		revision="1.0"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170226140641"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.9.1" status="release" pubdate="20110831013953" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2448" time="0" location="/Users/shubhrojyotiroy/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.pom"/>
+				<caller organisation="default" name="similar$sources_javadoc_2.9.1" conf="compile, runtime-internal, runtime, optional" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1131083" time="172" location="/Users/shubhrojyotiroy/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.9.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="20381370" time="4492" location="/Users/shubhrojyotiroy/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.9.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="6.4.1" status="release" pubdate="20170204104108" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="506018" time="0" location="/Users/shubhrojyotiroy/.ivy2/cache/org.apache.lucene/lucene-core/ivy-6.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/6.4.1/lucene-core-6.4.1.pom"/>
+				<caller organisation="default" name="similar$sources_javadoc_2.9.1" conf="compile, runtime-internal, runtime, optional" rev="6.4.1" rev-constraint-default="6.4.1" rev-constraint-dynamic="6.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1991437" time="453" location="/Users/shubhrojyotiroy/.ivy2/cache/org.apache.lucene/lucene-core/srcs/lucene-core-6.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/6.4.1/lucene-core-6.4.1-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-core" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="5120038" time="506" location="/Users/shubhrojyotiroy/.ivy2/cache/org.apache.lucene/lucene-core/docs/lucene-core-6.4.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/6.4.1/lucene-core-6.4.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-simple">
+			<revision name="1.7.5" status="release" pubdate="20130325135226" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4427" time="0" location="/Users/shubhrojyotiroy/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.pom"/>
+				<caller organisation="default" name="similar$sources_javadoc_2.9.1" conf="compile, runtime-internal, runtime, optional" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-simple" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="48986" time="183" location="/Users/shubhrojyotiroy/.ivy2/cache/org.slf4j/slf4j-simple/docs/slf4j-simple-1.7.5-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5-javadoc.jar"/>
+					</artifact>
+					<artifact name="slf4j-simple" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11527" time="79" location="/Users/shubhrojyotiroy/.ivy2/cache/org.slf4j/slf4j-simple/srcs/slf4j-simple-1.7.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.5" status="release" pubdate="20130325135215" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="3">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4383" time="0" location="/Users/shubhrojyotiroy/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom"/>
+				<caller organisation="default" name="similar$sources_javadoc_2.9.1" conf="compile, runtime-internal, runtime, optional" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="47186" time="107" location="/Users/shubhrojyotiroy/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="183075" time="117" location="/Users/shubhrojyotiroy/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.5-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

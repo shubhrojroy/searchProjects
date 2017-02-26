@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="similar_2.9.2"
+		revision="1.0"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170226141016"/>
+	<dependencies>
+		<module organisation="org.slf4j" name="slf4j-simple">
+			<revision name="1.7.5" status="release" pubdate="20130325135226" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4427" time="0" location="/Users/shubhrojyotiroy/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.pom"/>
+				<caller organisation="default" name="similar_2.9.2" conf="compile-internal, compile, provided, optional" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-simple" type="jar" ext="jar" status="no" details="" size="10680" time="0" location="/Users/shubhrojyotiroy/.ivy2/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.7.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.5" status="release" pubdate="20130325135215" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="2">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4383" time="0" location="/Users/shubhrojyotiroy/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom"/>
+				<caller organisation="default" name="similar_2.9.2" conf="compile-internal, compile, provided, optional" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.0"/>
+				<caller organisation="org.slf4j" name="slf4j-simple" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.7.5"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26084" time="0" location="/Users/shubhrojyotiroy/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="6.4.1" status="release" pubdate="20170204104108" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="506018" time="0" location="/Users/shubhrojyotiroy/.ivy2/cache/org.apache.lucene/lucene-core/ivy-6.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/6.4.1/lucene-core-6.4.1.pom"/>
+				<caller organisation="default" name="similar_2.9.2" conf="compile-internal, compile, provided, optional" rev="6.4.1" rev-constraint-default="6.4.1" rev-constraint-dynamic="6.4.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="lucene-core" type="jar" ext="jar" status="no" details="" size="2648855" time="0" location="/Users/shubhrojyotiroy/.ivy2/cache/org.apache.lucene/lucene-core/jars/lucene-core-6.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/6.4.1/lucene-core-6.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.9.2" status="release" pubdate="20120413052921" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
+         "/>
+				<metadata-artifact status="successful" details="" size="1739" time="88" location="/Users/shubhrojyotiroy/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml" searched="true" original-local-location="/Users/shubhrojyotiroy/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.pom"/>
+				<caller organisation="default" name="similar_2.9.2" conf="compile-internal, compile, provided, optional" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="8857794" time="949" location="/Users/shubhrojyotiroy/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.9.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
