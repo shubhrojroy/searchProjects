@@ -1,0 +1,13 @@
+compile
+exit
+compile
+gen-idea
+exit
+compile
+gen-idea
+exit
+compile
+project Similar
+assembly
+gen-idea
+exit

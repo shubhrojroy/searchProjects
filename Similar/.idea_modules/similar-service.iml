@@ -1,0 +1,90 @@
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="scala" name="Scala">
+      <configuration>
+        <option name="compilerLibraryLevel" value="Project"/>
+        <option name="compilerLibraryName" value="SBT: scala:2.10.3"/>
+        <option name="languageLevel" value="Scala 2.10"/>
+        <option name="fsc" value="true"/>
+        <option name="compilerOptions" value=""/>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../service/target/scala-2.10/classes"/>
+    <output-test url="file://$MODULE_DIR$/../service/target/scala-2.10/test-classes"/>
+    <exclude-output/>
+    <content url="file://$MODULE_DIR$/../service">
+      <sourceFolder url="file://$MODULE_DIR$/../service/src/main/scala-2.10" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/../service/src/main/scala" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/../service/src/main/java" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/../service/target/scala-2.10/src_managed/main/scalate" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/../service/target/scala-2.10/src_managed/main" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/../service/src/main/resources" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/../service/src/test/scala-2.10" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/../service/src/test/scala" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/../service/src/test/java" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/../service/src/test/resources" isTestSource="true"/>
+      <excludeFolder url="file://$MODULE_DIR$/../service/target/scala-2.10/classes"/>
+      <excludeFolder url="file://$MODULE_DIR$/../service/target/resolution-cache"/>
+      <excludeFolder url="file://$MODULE_DIR$/../service/target/scala-2.10/resource_managed"/>
+      <excludeFolder url="file://$MODULE_DIR$/../service/target/specs2-reports"/>
+      <excludeFolder url="file://$MODULE_DIR$/../service/target/streams"/>
+      <excludeFolder url="file://$MODULE_DIR$/../service/target/scala-2.10/src_managed/test"/>
+      <excludeFolder url="file://$MODULE_DIR$/../service/target/scala-2.10/test-classes"/>
+      <excludeFolder url="file://$MODULE_DIR$/../service/target/test-reports"/>
+      <excludeFolder url="file://$MODULE_DIR$/../service/target/webapp"/>
+    </content>
+    <orderEntry type="inheritedJdk"/>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.3" level="project"/>
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-core:6.4.1" level="project"/>
+    <orderEntry type="library" name="SBT: org.apache.commons:commons-math3:3.6.1" level="project"/>
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.5" level="project"/>
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-simple:1.7.5" level="project"/>
+    <orderEntry type="library" name="SBT: org.scalatra:scalatra_2.10:2.2.2" level="project"/>
+    <orderEntry type="library" name="SBT: org.scalatra:scalatra-common_2.10:2.2.2" level="project"/>
+    <orderEntry type="library" name="SBT: org.clapper:grizzled-slf4j_2.10:1.0.1" level="project"/>
+    <orderEntry type="library" name="SBT: org.scalatra.rl:rl_2.10:0.4.4" level="project"/>
+    <orderEntry type="library" name="SBT: com.googlecode.juniversalchardet:juniversalchardet:1.0.3" level="project"/>
+    <orderEntry type="library" name="SBT: eu.medsea.mimeutil:mime-util:2.1.3" level="project"/>
+    <orderEntry type="library" name="SBT: joda-time:joda-time:2.2" level="project"/>
+    <orderEntry type="library" name="SBT: org.joda:joda-convert:1.2" level="project"/>
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-actor_2.10:2.1.2" level="project"/>
+    <orderEntry type="library" name="SBT: com.typesafe:config:1.0.0" level="project"/>
+    <orderEntry type="library" name="SBT: org.scalatra:scalatra-scalate_2.10:2.2.2" level="project"/>
+    <orderEntry type="library" name="SBT: org.fusesource.scalate:scalate-core_2.10:1.6.1" level="project"/>
+    <orderEntry type="library" name="SBT: org.fusesource.scalate:scalate-util_2.10:1.6.1" level="project"/>
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-compiler:2.10.3" level="project"/>
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.10.3" level="project"/>
+    <orderEntry type="library" name="SBT: javax.servlet:javax.servlet-api:3.1.0:provided" scope="PROVIDED" level="project"/>
+    <orderEntry type="library" name="SBT: ch.qos.logback:logback-classic:1.1.5:runtime" scope="RUNTIME" level="project"/>
+    <orderEntry type="library" name="SBT: ch.qos.logback:logback-core:1.1.5:runtime" scope="RUNTIME" level="project"/>
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.16:runtime" scope="RUNTIME" level="project"/>
+    <orderEntry type="library" name="SBT: org.scalatra:scalatra-specs2_2.10:2.2.2:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.scalatra:scalatra-test_2.10:2.2.2:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-webapp:8.1.10.v20130312:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-xml:8.1.10.v20130312:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-util:8.1.10.v20130312:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-servlet:8.1.10.v20130312:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-security:8.1.10.v20130312:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-server:8.1.10.v20130312:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-continuation:8.1.10.v20130312:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-http:8.1.10.v20130312:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-io:8.1.10.v20130312:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.mockito:mockito-all:1.9.5:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.apache.commons:commons-lang3:3.1:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpclient:4.2.3:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpcore:4.2.2:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: commons-logging:commons-logging:1.1.1:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: commons-codec:commons-codec:1.6:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpmime:4.2.3:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.specs2:specs2_2.10:1.14:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.specs2:specs2-scalaz-core_2.10:7.0.0:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.specs2:specs2-scalaz-concurrent_2.10:7.0.0:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.specs2:scalaz-effect_2.10:7.0.0:test" scope="TEST" level="project"/>
+    <orderEntry type="library" name="SBT: org.specs2:scalaz-core_2.10:7.0.0:test" scope="TEST" level="project"/>
+    <orderEntry type="module" module-name="similar-core" exported=""/>
+  </component>
+</module>

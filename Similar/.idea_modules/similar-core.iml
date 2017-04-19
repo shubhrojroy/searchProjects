@@ -1,0 +1,36 @@
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="scala" name="Scala">
+      <configuration>
+        <option name="compilerLibraryLevel" value="Project"/>
+        <option name="compilerLibraryName" value="SBT: scala:2.10.3"/>
+        <option name="languageLevel" value="Scala 2.10"/>
+        <option name="fsc" value="true"/>
+        <option name="compilerOptions" value=""/>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../core/target/scala-2.10/classes"/>
+    <output-test url="file://$MODULE_DIR$/../core/target/scala-2.10/test-classes"/>
+    <exclude-output/>
+    <content url="file://$MODULE_DIR$/../core">
+      <sourceFolder url="file://$MODULE_DIR$/../core/src/main/scala-2.10" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/../core/src/main/scala" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/../core/src/main/java" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/../core/src/main/resources" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/../core/src/test/scala-2.10" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/../core/src/test/scala" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/../core/src/test/java" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/../core/src/test/resources" isTestSource="true"/>
+      <excludeFolder url="file://$MODULE_DIR$/../core/target"/>
+    </content>
+    <orderEntry type="inheritedJdk"/>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.3" level="project"/>
+    <orderEntry type="library" name="SBT: org.apache.lucene:lucene-core:6.4.1" level="project"/>
+    <orderEntry type="library" name="SBT: org.apache.commons:commons-math3:3.6.1" level="project"/>
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.5" level="project"/>
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-simple:1.7.5" level="project"/>
+  </component>
+</module>

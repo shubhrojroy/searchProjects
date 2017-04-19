@@ -1,3 +1,3 @@
-resolvers += "Sonatype snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/"
+addSbtPlugin("org.scalatra.scalate" % "sbt-scalate-precompiler" % "1.8.0.1")
 
-addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.7.0-SNAPSHOT")
+addSbtPlugin("org.scalatra.sbt" % "scalatra-sbt" % "0.5.1")

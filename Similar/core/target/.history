@@ -1,0 +1,30 @@
+project similar-service
+compile
+gen-idea
+assembly
+project similar-service
+compile
+assembly
+project similar-service
+compile
+assembly
+project similar-service
+assembly
+exit
+assembly
+project similar-core
+compile
+assembly
+project similar-service
+compile
+assembly
+project similar-service
+compile
+assembly
+project similar-service
+assembly
+compile
+assembly
+compile
+assembly
+exit
